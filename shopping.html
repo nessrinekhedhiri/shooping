@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<title> page shopping</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="shopping.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+ </head>
+ <body>  
+               
+                
+ <div class="produits" id="prods">   
+<div class="prod1">
+ <div class="img1"> <img src="10.jpg" ></div>
+ <ul >
+ <li class="price">
+    <h3> Price :</h3>
+    <p> <s>400 $</s>
+      <span>(40% OFF)</span>
+      
+       </br>
+          <strong id="prix1">160 $</strong>
+       </p>
+ </li>
+      <li>
+      <input type="number" id="prd1" class="quantity" min="1" max="100">
+      </li> 
+    </ul>
+    <form action="" method="get">
+      <h3 style= "margin-top: 22px";> Available colors:</h3>
+      <input type="checkbox" class="couleur"> <button class="button"></button>
+      <input type="checkbox"class="couleur"> <button class="button button2"></button>
+      <input type="checkbox"class="couleur"> <button class="button button3"></button>
+   </form>
+   <button class="save" onclick="calculprice_elem(1)">Save</button>
+   
+    </div>   
+
+   <div class="prod2">
+      <div class="img2"> <img src="2.jpg" ></div>
+<ul>
+      <li class="price">
+          <h3> Price :</h3>
+          <p> <s>120 $</s>
+            <span>(60% OFF)</span>
+            
+             </br>
+                <strong id="prix2"> 72 $</strong>
+             </p>
+       </li>
+          <li>
+          <input type="number" id="prd2" class="quantity" min="1" max="100">
+          </li> 
+</ul>
+<form action="" method="get">
+    <h3 style= "margin-top: 22px";> Available colors:</h3>
+    <input type="checkbox" class="couleur" > <button class="buttonn"></button>
+    <input type="checkbox"class="couleur" > <button class="button buttonn2" ></button>
+    <input type="checkbox"class="couleur" > <button class="button buttonn3" ></button>
+ </form>
+ <button class="save" onclick="calculprice_elem(2)">Save</button>
+       </div>          
+  <div class="prod3">
+  <div class="img3"><img src="7.jpg" ></div>
+  <ul> 
+    <li class="price">
+      <h3> Price :</h3>
+      <p> <s>170 $</s>
+        <span>(65% OFF)</span>
+        </br>
+        <strong id="prix3"> 110 $</strong>
+      </p>
+   </li>
+  <li>
+ <input type="number" id="prd3" class="quantity" min="1" max="100">
+  </li> 
+  </ul>
+  <form action="" method="get">
+      <h3 style= "margin-top: 22px";> Available colors:</h3>
+      <input type="checkbox" class="couleur"> <button class="button"></button>
+      <input type="checkbox"class="couleur"> <button class="button button2"></button>
+      <input type="checkbox"class="couleur"> <button class="button button3"></button>
+   </form>
+   <button class="save" onclick="calculprice_elem(3)">Save</button>
+  </div>    
+  <div class="prod4">
+   <div class="img4"> <img src="4.jpg" ></div>
+   <ul>
+      <li class="price">
+          <h3> Price :</h3>
+          <p> <s>450 $</s>
+            <span>(40% OFF)</span>
+            
+             </br>
+                <strong id="prix4"> 220 $</strong>
+             </p>
+       </li>
+          <li>
+          <input type="number" id="prd4" class="quantity" min="1" max="100">
+          </li> 
+        </ul>
+        <form action="" method="get">
+            <h3 style= "margin-top: 22px";> Available colors:</h3>
+            <input type="checkbox" class="couleur"> <button class="button"></button>
+            <input type="checkbox"class="couleur"> <button class="button butto2"></button>
+            <input type="checkbox"class="couleur"> <button class="button butto3"></button>
+         </form>
+         <button class="save" onclick="calculprice_elem(4)">Save</button>
+       </div>   
+
+</div> 
+<button class="somme"style="vertical-align:middle" onclick="somprix()"><span>commander</span></button>
+ </body>  
+
+ <footer class="media">
+        <!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+
+</footer> 
+<script type="text/javascript" src="shopping.js" ></script> 
+</html>
